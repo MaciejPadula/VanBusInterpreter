@@ -9,4 +9,4 @@ VanBus *vanBus = new VanBus("COM3"); //As Pointer
 You have to provide information about serial port of VanBus sniffing device.
 <br/>
 To use emitted signal just add:
-connect(vanBus, &VanBus::nextClicked, this, [=](){ Do some stuff }); // first argument have to be a pointer so if you declared VanBus as obect use &vanBus;
+connect(vanBus, &VanBus::nextClicked, this, Do some stuff); // first argument have to be a pointer so if you declared VanBus as obect use &vanBus;
