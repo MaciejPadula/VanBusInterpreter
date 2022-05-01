@@ -5,8 +5,6 @@ To use this library just copy VanBus folder to your project directory and add #i
 VanBus vanBus("COM3"); // As object
 <br/>
 VanBus *vanBus = new VanBus("COM3"); //As Pointer
-<br/>
-You have to provide information about serial port of VanBus sniffing device.
-<br/>
-To use emitted signal just add:
+#
+To use emitted signal just add: <br/>
 connect(vanBus, &VanBus::nextClicked, this, Do some stuff); // first argument have to be a pointer so if you declared VanBus as obect use &vanBus;
