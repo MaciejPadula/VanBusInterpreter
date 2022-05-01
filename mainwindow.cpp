@@ -63,8 +63,9 @@ MainWindow::MainWindow(QWidget *parent)
         ui->down->setStyleSheet("background-color:rgba(0,0,0,0)");
     });
 
-    //van->interpretLine("Raw: #7541 (12/15) 27(32) 0E 564 RA0 82-00-00-00-00-00-00-00-00-00-18-00-00-15-00-00-FF-FF-00-00-FF-FF-FF-FF-01-18-82:EF-38 ACK OK EF38 CRC_OK");
-    //van->interpretLine("Raw: #7549 ( 5/15)  7(12) 0E 8A4 W-0 8F-23-2E-13-8D-B1-63:D8-42 NO_ACK OK D842 CRC_OK");
+    /*example lines of data:
+    ("Raw: #7541 (12/15) 27(32) 0E 564 RA0 82-00-00-00-00-00-00-00-00-00-18-00-00-15-00-00-FF-FF-00-00-FF-FF-FF-FF-01-18-82:EF-38 ACK OK EF38 CRC_OK");
+    ("Raw: #7549 ( 5/15)  7(12) 0E 8A4 W-0 8F-23-2E-13-8D-B1-63:D8-42 NO_ACK OK D842 CRC_OK");*/
 
 
 
