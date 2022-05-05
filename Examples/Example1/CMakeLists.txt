@@ -14,8 +14,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 
-add_subdirectory(VanBus)
+
 add_executable(Example1
   main.cpp
 )
+add_subdirectory(VanBus)
 target_link_libraries(Example1 Qt${QT_VERSION_MAJOR}::Core VanBus)
