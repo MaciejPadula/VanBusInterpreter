@@ -14,11 +14,13 @@ int main(int argc, char *argv[]){
   QCoreApplication a(argc, argv);
   
   VanBus vanBus("COM3"); // As object
-  VanBus *vanBus = new VanBus("COM3"); //As Pointer
+  VanBus *vanBusPtr = new VanBus("COM3"); //As Pointer
 
   //To use emitted signal just add:
   connect(&vanBus, &VanBus::nextClicked, &a, Do some stuff);  //vanBus is object
-  connect(vanBus, &VanBus::nextClicked, &a, Do some stuff);  //vanBus is pointer
+  connect(vanBusPtr, &VanBus::nextClicked, &a, Do some stuff);  //vanBus is pointer
+  
+  delete vanBusPtr;
   return a.exec();
 }
 ```
