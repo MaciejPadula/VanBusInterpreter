@@ -2,7 +2,7 @@
 #define VANBUS_H
 
 #include <QString>
-#include <qserialport.h>
+#include <QSerialPort>
 
 #include "MultimediaInfo/steeringcontrol.h"
 #include "CarStatistics/acinfo.h"
