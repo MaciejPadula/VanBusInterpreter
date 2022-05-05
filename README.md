@@ -1,7 +1,7 @@
 # VanBusInterpreter
 VanBus Interpreter is a QT library that allows user to connect signals emited for example by steering wheel radio pilot buttons. 
 # Usage
-To use this library just copy VanBus folder to your project directory and add #include "VanBus.h" to your main file include library in your CMake or QMake file in Qt Creator.
+To use this library just copy VanBus folder to your project directory and add #include <VanBus/vanbus.h> to your main file include library in your CMake or QMake file in Qt Creator.
 ```CMake
 add_subdirectory(VanBus)
 target_link_libraries(Example1 Qt${QT_VERSION_MAJOR}::Core VanBus)
